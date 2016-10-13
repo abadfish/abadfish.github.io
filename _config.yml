@@ -16,10 +16,6 @@ keep_files:
 # Site settings
 title: Kirsten O'Farrell
 subtitle: "My website for you."
-# Base URL of site. It should always start with a slash,
-# and never end with a slash. Set it to a blank value if hosting at the
-# root of your server.
-# baseurl: "/" # the subpath of your site
 url: "http://www.kirstenofarrell.com" # the base hostname & protocol for your site
 baseurl: "/kirstenofarrell"
 cover: "/assets/cover.png"
@@ -38,3 +34,11 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+# Base URL of site. It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+# baseurl: "/" # the subpath of your site
