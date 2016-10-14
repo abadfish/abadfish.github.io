@@ -703,6 +703,12 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 20px;
   width: 20px;
 }
+
+.icon {
+  height: 60px;
+  width: 52.5px;
+}
+
 .social-icons {
   margin-top: 40px;
 }
