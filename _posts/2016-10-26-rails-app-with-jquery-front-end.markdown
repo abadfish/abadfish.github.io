@@ -59,6 +59,7 @@ We know because of the relationship that we can iterate through an author's post
 
 The id's here associated with the HTML tags are what we will use to connect the script to the data for display. Here we are telling the DOM where to put the data and how to display it.
 
+>
 ```
 <script type="text/javascript" charset="utf-8">
 $(function () {
