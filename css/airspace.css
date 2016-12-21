@@ -697,6 +697,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 .address-block li {
   margin-bottom: 20px;
+  font-size: 22px !important;
 }
 .address-block li i {
   margin-right: 15px;
