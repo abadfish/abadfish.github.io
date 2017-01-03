@@ -11,7 +11,7 @@ This is not going to be a technical post. I will certainly follow up with one, b
 
 AngularJS was the final unit of the Flatiron School's online full-stack program. I had seen a cartoon about Angular describing a roller-coastered sequence of feelings toward the Javascript-based framework and wondered what exactly that was all about. It definitely made approaching it more intimidating.
 
-![angular-learning-curve](/img/angular-learning-curve.png){:class="img-responsive"}
+![angular-learning-curve](/img/angular-learning-curve.png =400x){:class="img-responsive" }
 
 Being that Angular was the last unit in the program however, I approached it with vigor, eager to start my new career as a programmer, and planning to power through it. But it didn't happen that way. It didn't happen even remotely that way.
 
