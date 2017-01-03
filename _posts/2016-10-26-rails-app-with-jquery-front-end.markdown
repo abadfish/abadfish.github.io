@@ -22,7 +22,7 @@ The ActiveRecord relationship is such that a post belongs to an author and an au
 
 ```
 class AuthorSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :posts
   has_many :posts
 end
 ```
@@ -31,8 +31,8 @@ Next go over to your authors controller. We have to write an action to display t
 
 ```
 def author_data
-  author = Author.find(params[:id])
-  render json: author.to_json(only: [:name, :hometown, :id], include: [posts: {only: [:title, :content]}])
+  @author = Author.find(params[:id])
+  render json: @author
 end
 ```
 
